@@ -17,8 +17,6 @@ import java.net.URISyntaxException;
 @RequiredArgsConstructor
 public class AuthorizationTokenClient {
 
-    private static final String USER = "983b55cd4dd949b094667e126fd2a7d9";
-    private static final String PASS = "c4fa516df1a548ca96d9b6298c3ef99d";
     private static final String PATH = "/api/token";
     private final RestTemplate restTemplate;
 
